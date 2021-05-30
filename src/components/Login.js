@@ -10,8 +10,8 @@ function Login() {
           <SignUp>GET ALL THERE</SignUp>
           <Description>
             Get Premier Access to Raya and the Last Dragon for an additional fee
-            with a Disney+ subscription. As of 03/26/21, the price of Disney+
-            and The Disney Bundle will increase by $1.
+            with a Disney+ subscription. As of {new Date().toLocaleDateString()}
+            , the price of Disney+ and The Disney Bundle will increase by $1.
           </Description>
           <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
         </CallToAction>
@@ -57,7 +57,7 @@ const BackgroundImg = styled.div`
   top: 0;
   right: 0;
   left: 0;
-  opacity: 0.6; /*you added*/
+  opacity: 0.6;
   z-index: -1;
 `;
 
@@ -66,7 +66,7 @@ const CallToAction = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /*you added*/
+  align-items: center;
 `;
 
 const CTALogoOne = styled.img`
@@ -82,16 +82,16 @@ const SignUp = styled.a`
   color: #f9f9f9;
   background-color: #0063e5;
   margin-bottom: 12px;
-  margin-top: 8px; /*you added*/
+  margin-top: 8px;
   width: 100%;
   letter-spacing: 1.5px;
   font-size: 18px;
-  padding: 17px 0; /*you altered*/
+  padding: 17px 0;
   border: 1px solid transparent;
-  border-radius: 5px; /*you altered*/
-  cursor: pointer; /*you added*/
-  transition: all 250ms; /*you added*/
-  text-align: center; /*you added*/
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 250ms;
+  text-align: center;
 
   &:hover {
     background-color: #0483ee;
@@ -99,11 +99,11 @@ const SignUp = styled.a`
 `;
 
 const Description = styled.p`
-  font-size: 11px;
-  margin: 5px 0 24px; /*you altered*/
+  font-size: 16px;
+  margin: 5px 0 24px;
   line-height: 1.5;
   letter-spacing: 1.5px;
-  color: #f9f9f9; /*you altered*/
+  color: #f9f9f9;
 `;
 
 const CTALogoTwo = styled.img`

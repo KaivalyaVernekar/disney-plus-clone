@@ -151,7 +151,7 @@ const NavMenu = styled.div`
     display: flex;
     align-items: center;
     padding: 0 12px;
-    cursor: pointer; /*you added*/
+    cursor: pointer;
 
     img {
       height: 20px;
@@ -163,13 +163,13 @@ const NavMenu = styled.div`
     span {
       color: rgb(249, 249, 249);
       font-size: 13px;
-      text-transform: uppercase; /*you added*/
+      text-transform: uppercase;
       letter-spacing: 1.42px;
       line-height: 1.08;
       padding: 2px 0;
       white-space: nowrap;
       position: relative;
-      margin: 2px 0 0 0.5px; /*you added*/
+      margin: 2px 0 0 0.5px;
 
       &:before {
         background-color: rgb(249, 249, 249);
@@ -198,9 +198,9 @@ const NavMenu = styled.div`
     }
   }
 
-  /*@media (max-width: 768px) {
+  @media (max-width: 768px) {
     display: none;
-  }*/
+  }
 `;
 
 const Login = styled.a`
@@ -209,9 +209,9 @@ const Login = styled.a`
   text-transform: uppercase;
   letter-spacing: 1.5px;
   border: 1px solid #f9f9f9;
-  border-radius: 5px; /*you altered*/
+  border-radius: 5px;
   transition: all 0.2s ease 0s;
-  cursor: pointer; /*you added*/
+  cursor: pointer;
 
   &:hover {
     background-color: #f9f9f9;
