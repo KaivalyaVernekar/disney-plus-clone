@@ -23,6 +23,8 @@ function Login() {
 
 export default Login;
 
+/*Styling*/
+
 const Container = styled.section`
   overflow: hidden;
   display: flex;
@@ -55,7 +57,7 @@ const BackgroundImg = styled.div`
   top: 0;
   right: 0;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.6; /*you added*/
   z-index: -1;
 `;
 
@@ -64,7 +66,7 @@ const CallToAction = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /*you added*/
 `;
 
 const CTALogoOne = styled.img`
@@ -80,16 +82,16 @@ const SignUp = styled.a`
   color: #f9f9f9;
   background-color: #0063e5;
   margin-bottom: 12px;
-  margin-top: 8px;
+  margin-top: 8px; /*you added*/
   width: 100%;
   letter-spacing: 1.5px;
   font-size: 18px;
-  padding: 17px 0;
+  padding: 17px 0; /*you altered*/
   border: 1px solid transparent;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 250ms;
-  text-align: center;
+  border-radius: 5px; /*you altered*/
+  cursor: pointer; /*you added*/
+  transition: all 250ms; /*you added*/
+  text-align: center; /*you added*/
 
   &:hover {
     background-color: #0483ee;
@@ -98,10 +100,10 @@ const SignUp = styled.a`
 
 const Description = styled.p`
   font-size: 11px;
-  margin: 5px 0 24px;
+  margin: 5px 0 24px; /*you altered*/
   line-height: 1.5;
   letter-spacing: 1.5px;
-  color: #f9f9f9;
+  color: #f9f9f9; /*you altered*/
 `;
 
 const CTALogoTwo = styled.img`
