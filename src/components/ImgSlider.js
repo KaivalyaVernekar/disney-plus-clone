@@ -63,7 +63,7 @@ const Carousel = styled(Slider)`
 
   ul li button {
     &:before {
-      font-size: 10px; /*try altering later*/
+      font-size: 10px;
       color: rgb(150, 158, 171);
     }
   }
@@ -77,14 +77,13 @@ const Carousel = styled(Slider)`
   }
 
   .slick-prev {
-    left: -75px; /*try altering to bring buttons to visible*/
+    left: -75px;
   }
 
   .slick-next {
-    right: -75px; /*try altering to bring buttons to visible*/
+    right: -75px;
   }
 `;
-/*try to add cursor: pointer to the slick buttons*/
 
 const Wrap = styled.div`
   border-radius: 4px;
