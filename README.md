@@ -13,7 +13,7 @@
 
 <hr />
 
-<p align="left">This is a responsive website built with ReactJS, Redux and Firebase. It uses Google authentication for login and retrieves movie's data from database.</p>
+<p align="left">This is a responsive website built with ReactJS, Redux and Firebase. It uses Google authentication for login using Firebase and retrieves movie's data from firestore database. It also has slick carousel effect added using React-Slick.</p>
 
 ## 💡Features
 
