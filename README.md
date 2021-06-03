@@ -3,11 +3,11 @@
 <hr />
  <a href="https://disney-plus-clone-3ce7e.web.app/" target="_blank">View Project</a>
 <hr />
-<div align="center">
+<div align="center" autoplay={true} muted={true} loop={true} object-fit="cover">
 
 <!-- Add your project demo gif here -->
 
-![Project Demo Gif]()
+![Project Demo Gif](https://media.giphy.com/media/GLj1P9Fbuzma91SD6L/giphy.gif)
 
 </div>
 
